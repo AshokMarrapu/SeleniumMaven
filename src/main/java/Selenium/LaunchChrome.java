@@ -11,6 +11,7 @@ public class LaunchChrome
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\AshokMarrapu\\eclipse-workspace\\Drivers\\chromedriver_win32 (3)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		System.out.println("Google window is opened");
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		System.out.println("Google Chrome is launched");		
